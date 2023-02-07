@@ -4,7 +4,11 @@
         <title>
             Sports
         </title>
-
+        <style>
+            table, td, th { border: 1px solid grey;}
+            table{ border-collapse: collapse;
+                }
+        </style>
     </head>
     <body>
      <h1>
@@ -31,5 +35,52 @@
         <li>Gujarat Titans</li>
         <li>Lucknow Super Giants</li>
      </ul>
+     <a href="aboutme.html">Aboutme</a>
+     <hr>
+     <h3>
+        wanderlust
+     </h3>
+     <p>This is Traveling Table Information.</p>
+     <table>
+        <tr>
+            <th>Country</th>
+            <th>Reason</th>
+            <th>No of days</th>
+        </tr>
+        <tr>
+            <td>Goa</td>
+            <td>Best Place to Hangout</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>France</td>
+            <td>Best place to Have nice views</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>UAE</td>
+            <td>Best Place to visit waterless mountains</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Venice</td>
+            <td>Best Place to visit unique environmentally</td>
+            <td>20</td>
+        </tr>
+     </table>
+     <hr>
+     <blockquote cite="https://stackoverflow.com/questions/1484506/random-color-generator">
+        How To Generate a Random Color in JavaScript
+     </blockquote>
+     <pre>
+        const setBg = () => {
+            const randomColor = Math.floor(Math.random()*16777215).toString(16);
+            document.body.style.backgroundColor = "#" + randomColor;
+            color.innerHTML = "#" + randomColor;
+          }
+          
+          genNew.addEventListener("click", setBg);
+          setBg();
+     </pre>
     </body>
 </html>
